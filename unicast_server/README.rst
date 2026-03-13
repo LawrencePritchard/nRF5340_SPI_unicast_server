@@ -1,8 +1,10 @@
 This is a modification of the nnrf5340 audio applications unicast server. 
 
 It replaces the bluetooth functionality with SPI communication. 
-The application will receive audio data over SPI and play it through the audio output.
+The application will send its mic audio over SPI and receive audio data over SPI and play it through the headphone jack.
 The configuration options for Bluetooth have been disabled, and SPI has been enabled. 
+Issues arose when building this application and is not fully functional
+
 
 below is the readme for the original unicast server app
 
